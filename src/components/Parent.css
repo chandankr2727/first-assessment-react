@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(rgb(148, 183, 197),rgba(211, 153, 153, 0.904),rgb(233, 170, 170),grey);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 94.5vh;
+}
+.heading{
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 30px;
+    text-shadow: 3px 3px turquoise;
+}
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    margin:30px 0px;
+}
+.btn{
+    width: 24%;
+    height: 10vh;
+    border-radius: 15px;
+    background-color: rgb(113, 171, 219);
+}
+.btn:hover{
+    background-color: turquoise;
+    cursor: pointer;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.class-card{
+    width: 35%;
+    height: 35vh;
+    padding: 10px;
+    background-color: rgb(241, 194, 63);
+    border-radius: 20px;
+    line-height: 40px;
+}
+.function-card{
+    width: 35%;
+    height: 35vh;
+    padding: 10px;
+    background-color: turquoise;
+    border-radius: 20px;
+    line-height: 40px;
+    
+}
